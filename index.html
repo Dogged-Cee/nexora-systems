@@ -8,36 +8,69 @@
 </head>
 <body>
 
-  <header>
-    <h1>Nexora Systems</h1>
-    <p>Building the future of digital collaboration</p>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">Nexora Systems</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#vision">Vision</a>
+    </nav>
   </header>
 
-  <section>
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Building the Future of Digital Collaboration</h1>
+    <p>
+      Nexora Systems is a technology company building intelligent platforms for organisation, safety, and digital growth.
+    </p>
+    <button onclick="scrollToSection('about')">Explore More</button>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
     <h2>About Us</h2>
     <p>
-      Nexora Systems is a technology company building platforms for organisation, safety, collaboration, and digital growth.
       We design systems that help people work together, build communities, and create structured digital solutions for the future.
     </p>
   </section>
 
-  <section>
-    <h2>What We Do</h2>
-    <ul>
-      <li>Organisation Platforms</li>
-      <li>Safety & Emergency Systems</li>
-      <li>Digital Collaboration Tools</li>
-      <li>Future AI Systems</li>
-    </ul>
+  <!-- PRODUCTS -->
+  <section id="products" class="section dark">
+    <h2>What We Build</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Organisation Platforms</h3>
+        <p>Tools for teams, communities, voting, and collaboration.</p>
+      </div>
+
+      <div class="card">
+        <h3>Safety Systems</h3>
+        <p>Emergency and protection systems for individuals and groups.</p>
+      </div>
+
+      <div class="card">
+        <h3>Digital Tools</h3>
+        <p>Platforms for communication, productivity, and growth.</p>
+      </div>
+
+      <div class="card">
+        <h3>Future AI Systems</h3>
+        <p>Intelligent systems that support decision-making and automation.</p>
+      </div>
+    </div>
   </section>
 
-  <section>
+  <!-- VISION -->
+  <section id="vision" class="section">
     <h2>Our Vision</h2>
     <p>
       To build intelligent systems that connect people, improve organisation, and power the future of digital communities.
     </p>
   </section>
 
+  <!-- FOOTER -->
   <footer>
     <p>© 2026 Nexora Systems. All rights reserved.</p>
   </footer>
